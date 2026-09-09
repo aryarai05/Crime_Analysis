@@ -1,208 +1,199 @@
-# The Fall of Giants — A Study in Corporate Collapse
+# CRIMEWATCH — Crime & Safety Intelligence Platform
 
-> An interactive data-driven presentation exploring how leading companies can lose their competitive advantage through failures in innovation, financial management, and stakeholder trust.
+> An interactive data analytics platform for exploring crime patterns, identifying hotspots, and understanding location-based safety trends.
 
----
+## Overview
 
-## 📌 Overview
+**CRIMEWATCH** transforms crime data into meaningful visual insights through interactive dashboards, geospatial maps, trend analysis, hotspot detection, and dynamic risk scoring.
 
-**The Fall of Giants** is an interactive analytical presentation that examines the corporate decline of three major companies:
+The platform helps users understand **where, when, and how crime occurs** through data-driven analytics and visualizations.
 
-* **Nokia**
-* **Café Coffee Day (CCD)**
-* **BYJU'S**
+## Features
 
-The project focuses on identifying the strategic, financial, and operational factors that contributed to their decline and extracting broader lessons for modern businesses.
+* 📊 Interactive crime analytics dashboard
+* 🗺️ Interactive crime map and heatmap
+* 🔥 Crime hotspot detection
+* 📈 Time-based crime trend analysis
+* 📍 Location-based crime analysis
+* ⚠️ Dynamic risk scoring
+* 🔎 Search and filter crime records
+* ⚖️ Area-to-area comparison
+* 💡 Automated analytical insights
+* 📄 Report generation
+* 📥 CSV data export
+* 🌙 Dark/Light mode
+* 📱 Responsive interface
+* 🧪 10,000+ synthetic crime records
 
-Rather than simply presenting company histories, the project compares their journeys and highlights recurring patterns behind large-scale corporate failures.
+## Tech Stack
 
----
+**Frontend**
 
-## 🎯 Objectives
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
 
-The primary objectives of this project are to:
+**Data Visualization**
 
-* Analyze major corporate failures through real-world case studies.
-* Understand how market leadership can be lost.
-* Examine the impact of technological disruption.
-* Explore the relationship between financial management and business sustainability.
-* Understand how stakeholder trust affects long-term business success.
-* Identify common patterns across different corporate collapses.
-* Present complex business insights through an engaging visual format.
+* Recharts
+* Leaflet
+* React-Leaflet
 
----
+**UI & Animation**
 
-## 🏢 Case Studies
+* Framer Motion
+* Lucide React
 
-### 1. Nokia
+**Analytics**
 
-Once one of the world's dominant mobile-phone companies, Nokia experienced a dramatic decline during the smartphone revolution.
+* JavaScript/TypeScript
+* Statistical Analysis
+* Geospatial Analysis
+* Hotspot Analysis
+* Dynamic Risk Scoring
 
-The case study examines:
-
-* Failure to adapt quickly to smartphones
-* Increasing competition
-* Strategic decision-making
-* Loss of market share
-* Acquisition by Microsoft
-
-### 2. Café Coffee Day
-
-Café Coffee Day grew into one of India's largest coffee-chain businesses before facing severe financial difficulties.
-
-The analysis focuses on:
-
-* Rapid expansion
-* High levels of debt
-* Financial pressure
-* Business sustainability
-* Corporate governance challenges
-
-### 3. BYJU'S
-
-BYJU'S experienced extraordinary growth and became one of the world's most highly valued edtech companies before facing significant financial and operational challenges.
-
-The case study examines:
-
-* Rapid expansion
-* Valuation growth and decline
-* Financial challenges
-* Governance and management issues
-* Loss of stakeholder confidence
-
----
-
-## 📊 Key Themes
-
-The project identifies three major factors that repeatedly appear in corporate decline:
-
-### INNOVATE
-
-Companies must continuously adapt to changing technology, consumer behavior, and market conditions.
-
-### FINANCE
-
-Growth without sustainable financial management can create significant long-term risks.
-
-### TRUST
-
-Transparency, governance, and stakeholder confidence are essential for maintaining a sustainable organization.
-
----
-
-## 📈 Comparative Analysis
-
-The project compares the three companies across several dimensions:
-
-| Company         | Primary Challenge        | Major Factor                  |
-| --------------- | ------------------------ | ----------------------------- |
-| Nokia           | Technological disruption | Failure to adapt              |
-| Café Coffee Day | Financial pressure       | High debt & expansion         |
-| BYJU'S          | Rapid-growth challenges  | Financial & governance issues |
-
-This comparison demonstrates that corporate collapse rarely results from a single mistake. It is often the result of multiple strategic and operational problems accumulating over time.
-
----
-
-## ✨ Features
-
-* Interactive presentation-style interface
-* Case-study based analysis
-* Comparative corporate analysis
-* Visual data representation
-* Modern dark-themed UI
-* Professional typography
-* Gold and red visual accents
-* Responsive presentation layout
-* Slide-based navigation
-* Data-focused storytelling
-
----
-
-## 🛠️ Technologies Used
-
-* **HTML5** — Presentation structure
-* **CSS3** — Styling, layouts, animations and visual effects
-* **JavaScript** — Interactive navigation and presentation controls
-* **SVG / CSS Graphics** — Data visualization and graphical elements
-* **Google Fonts** — Typography
-
----
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
-The-Fall-of-Giants/
-│
-├── index.html
-├── README.md
-└── assets/
-    ├── images/
-    └── ...
+CRIMEWATCH/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── data/
+│   ├── utils/
+│   ├── charts/
+│   ├── App.tsx
+│   └── main.tsx
+├── public/
+├── package.json
+├── tailwind.config.js
+├── vite.config.ts
+└── README.md
 ```
 
-> The exact structure may vary depending on the final project files.
+## Installation
 
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/the-fall-of-giants.git
+git clone https://github.com/your-username/crimewatch.git
 ```
 
-### 2. Navigate to the project
+Navigate to the project:
 
 ```bash
-cd the-fall-of-giants
+cd crimewatch
 ```
 
-### 3. Run the project
+Install dependencies:
 
-Since this is a web-based presentation, you can simply open:
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal.
+
+## Main Modules
+
+### Dashboard
+
+Provides an overview of total incidents, crime severity, trends, hotspots, and risk levels.
+
+### Crime Explorer
+
+Allows users to search, filter, and analyze individual crime records within the dataset.
+
+### Crime Map
+
+Displays geographic crime distribution using interactive maps and visual indicators.
+
+### Hotspot Analysis
+
+Identifies areas with concentrated crime activity using location-based analysis.
+
+### Risk Intelligence
+
+Calculates analytical risk scores using factors such as crime frequency, severity, and historical patterns.
+
+### Area Comparison
+
+Compares crime statistics and safety indicators between different locations.
+
+### Reports
+
+Generates analytical summaries and supports data export for further analysis.
+
+## Dataset
+
+The project uses a **synthetic dataset containing 10,000+ crime records** for demonstration and analytics purposes.
+
+Each record may contain information such as:
 
 ```text
-index.html
+Crime Type
+Location
+Date
+Time
+Severity
+Latitude
+Longitude
+Status
 ```
 
-in your browser.
+> The dataset is synthetic and does not represent real individuals or real-world crime records.
 
-For the best development experience, use **VS Code with Live Server**.
+## Analytics Workflow
 
----
+```text
+Crime Dataset
+      ↓
+Data Processing
+      ↓
+Exploratory Analysis
+      ↓
+Trend Analysis
+      ↓
+Geospatial Analysis
+      ↓
+Hotspot Detection
+      ↓
+Risk Scoring
+      ↓
+Interactive Visualization
+      ↓
+Safety Insights
+```
 
-## 💡 Key Takeaway
+## Ethical Considerations
 
-The central message of the project is simple:
+CRIMEWATCH is designed strictly for **aggregate crime-data analysis and visualization**.
 
-> **Market leadership is not permanent.**
+* It does not predict whether an individual will commit a crime.
+* It does not use protected personal attributes.
+* Risk scores represent analytical estimates based on historical patterns.
+* Synthetic data is used for demonstration.
 
-Companies that fail to innovate, manage finances responsibly, or maintain stakeholder trust can lose even a dominant position.
+## Future Enhancements
 
-The cases of Nokia, Café Coffee Day, and BYJU'S demonstrate how different forms of corporate pressure can ultimately lead to significant decline.
+* Real-time crime data integration
+* Advanced machine learning prediction models
+* Real-time alerts
+* Improved geospatial clustering
+* Mobile application
+* Public safety API
+* Advanced statistical forecasting
 
----
+## Author
 
-## 🎓 Academic / Portfolio Project
+Developed as a **Data Analytics & Geospatial Intelligence project** demonstrating data visualization, exploratory analysis, geospatial analytics, and interactive dashboard development.
 
-This project was developed as an analytical and visual storytelling project focused on **business strategy, corporate failure, data analysis, and presentation design**.
+## License
 
-It demonstrates the ability to transform complex real-world business cases into a structured, visually engaging analytical experience.
-
----
-
-## 👤 Author
-
-**Arya Rai**
-
-B.Tech — Computer Science & Engineering
-
-Interested in **Artificial Intelligence, Machine Learning, Data Analytics, and Software Development**.
-
----
-
-## ⭐ If You Found This Project Interesting
-
-Consider giving the repository a ⭐ on GitHub.
+This project is intended for educational and portfolio purposes.
